@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MART.exe" version="1.0.0.0" publicKeyToken="a5964cca6e3a9717" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Edited-logo.ico" asmv2:publisher="MART" asmv2:product="MART" asmv2:supportUrl="http://www.en-abel.net/" co.v1:errorReportUrl="http://www.en-abel.net/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MART" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MART.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Crypto.dll" size="2236416">
+      <assemblyIdentity name="BouncyCastle.Crypto" version="1.8.1.0" publicKeyToken="0E99375E54769942" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GYW4W7RL5sbq814C7xHiOokOgJuOwuUyEKStWoWybHA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.PDFOne.dll" size="7447040">
+      <assemblyIdentity name="Gnostice.PDFOne" version="7.8.823.1768" publicKeyToken="C91DC0D609DE7D5E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YGUipU3aaU1t3s7H5hE3moaoqp1wGn+KbM8A/cI0MPI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.PDFOne.Controls.Web.dll" size="446976">
+      <assemblyIdentity name="Gnostice.PDFOne.Controls.Web" version="7.8.823.1768" publicKeyToken="C91DC0D609DE7D5E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cQljwve9GpY2ILnYyl1jAtmrKiptzVDIYN075dFWjAk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.PDFOne.Extensions.MVC.dll" size="227328">
+      <assemblyIdentity name="Gnostice.PDFOne.Extensions.MVC" version="7.8.823.1768" publicKeyToken="C91DC0D609DE7D5E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VOmDeDF4Vs/QPecUgHI51q4DeFFOJT/SHiCr3pCZ4Wc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.PDFOne.PDFPrinter.dll" size="52736">
+      <assemblyIdentity name="Gnostice.PDFOne.PDFPrinter" version="7.8.823.1768" publicKeyToken="C91DC0D609DE7D5E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>P+5tGwzetIRsiHPPDZwxiYN3Nqsx4V/eabB5QZ7mCLo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.PDFOne.Windows.PDFBookmarks.dll" size="48128">
+      <assemblyIdentity name="Gnostice.PDFOne.Windows.PDFBookmarks" version="7.8.823.1768" publicKeyToken="C91DC0D609DE7D5E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ffaowzlwWsI6P+ZAoUYtkDlsozEKlnMuEqMxD9rYfQk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.PDFOne.Windows.PDFViewer.dll" size="121856">
+      <assemblyIdentity name="Gnostice.PDFOne.Windows.PDFViewer" version="7.8.823.1768" publicKeyToken="C91DC0D609DE7D5E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>t+4NU/w2JrvHvy6MHotcvV3Bot0P/vxxgSx6/D/ZnYg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.XtremeFontEngine.4.0.dll" size="655360">
+      <assemblyIdentity name="Gnostice.XtremeFontEngine.4.0" version="1.0.2066.466" publicKeyToken="461DE9DA64BE3A84" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FHud5SHQQSYCOs4iyXlqCPK3i1s/fF6ZDUgZGOjA0UQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gnostice.XtremeImageEngine.4.0.dll" size="583168">
+      <assemblyIdentity name="Gnostice.XtremeImageEngine.4.0" version="12.0.1724.135" publicKeyToken="67E9A3A7C22F1690" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hEhWxO2NrPcErwqOi5X3prfxmn3ACBoG5PnWoywadvY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ionic.Zlib.dll" size="102400">
+      <assemblyIdentity name="Ionic.Zlib" version="1.9.1.8" publicKeyToken="EDBE51AD942A3F5C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>841UdnZdwdshJzKABmmiJ5TarjvTh90GA2azhNNnjbE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="275968">
+      <assemblyIdentity name="log4net" version="2.0.8.0" publicKeyToken="669E0DDF0BB1AA2A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7exU2hkB5klYjoy1KwAasq7HbtBDCCRFepBPzAq9Qpk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MART.exe" size="836016">
+      <assemblyIdentity name="MART" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+wAO+vcZVf8avLwIBg9Jlq4VM63chp0dA/Z/4MQEi+8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zen.Barcode.Core.dll" size="12298752">
+      <assemblyIdentity name="Zen.Barcode.Core" version="3.1.0.0" publicKeyToken="B5AE55AA76D2D9DE" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Vm1JK2AL/rsaoGmFVvwymeWqPKWiZCuqbZacVfJS2o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Edited-logo.ico" size="70390">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wjXSVsbaA3wWZ7bOBu9fABE1vs+kHZKTYil4t30swH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MART.exe.config" size="851">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QOcISd+lSm1EzxQXwFE1bpIBjZte1DFZDC2dhrm0gKg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Notes.txt" size="4719">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9694Fq1fqyAt9WmhZmz4i3SOMokT1LSNwFiosTkEyTg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DELLABEL\Abel" issuerKeyHash="26872726305e660d56beac38a7db95803fbcfe88" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N3/e6KgtOHglLen55v/OJrGqy48jZOjQ5Io8UZyCz30=</DigestValue></Reference></SignedInfo><SignatureValue>PVFa5qMmZdtbC4VUlI5i/ikHGbZ5uL+S5gajixUvCSXUeozFKttqJq8fSZhbv5xF4tXjYTFb751hmYgDmww3PFkpSE+gau1gte7jUDAXenWnI/nayjc/416/MwqrBQNZLWsKVoo949ZvgRBUCqh+y+UFIczqukBbDm62lDHfe3M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zbw+yWUjInFlx7cehTaDBdlQ+5FYc0V90mMJURuAoPEsu+wnWEGn8j5GyJlLasiAzgSw5DkoE1/DcCcLYOM/x16sPjeT8NxantdC5LGynH6TiHv6qlJznUfxr0z1ISX1oGLxX83dj3cNU83i9Vl5K6nZa4AxFOvcPna+1gvL03k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7dcf829c513c8ae4d0e864238fcbaab126ceffe6f9e92d2578382da8e8de7f37" Description="" Url=""><as:assemblyIdentity name="MART.exe" version="1.0.0.0" publicKeyToken="a5964cca6e3a9717" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DELLABEL\Abel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tvwhnoT+MK7QF6haS+DCEKyvk0KTsQJhEaI0lK7pb38=</DigestValue></Reference></SignedInfo><SignatureValue>harJVIvVnBjpHwPdb1s8dOhebHrMf9Q8hMpi0o3sVoP3xu00/1xZ2H8yF7tN0pMj80DSkCvD3Qi1C9BpRAUKsDi1USq2RnpnJXIIABUsRW87giNg4V2h0mECuB55HfKtVaZEEZojo3vMzssGvpTO7UIfU4srQ0Z9g9Ki+ARTov0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zbw+yWUjInFlx7cehTaDBdlQ+5FYc0V90mMJURuAoPEsu+wnWEGn8j5GyJlLasiAzgSw5DkoE1/DcCcLYOM/x16sPjeT8NxantdC5LGynH6TiHv6qlJznUfxr0z1ISX1oGLxX83dj3cNU83i9Vl5K6nZa4AxFOvcPna+1gvL03k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQEqItlbkLTIpKStMYodmiKDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoARABFAEwATABBAEIARQBMAFwAQQBiAGUAbDAeFw0yMTA5MTcxMTE0MTRaFw0yMjA5MTcxNzE0MTRaMCUxIzAhBgNVBAMeGgBEAEUATABMAEEAQgBFAEwAXABBAGIAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNvD7JZSMicWXHtx6FNoMF2VD7kVhzRX3SYwlRG4Cg8Sy77CdYQafyPkbImUtqyIDOBLDkOSgTX8NwJwtg4z/HXqw+N5Pw3Fqe10LksbKcfpOIe/qqUnOdR/GvTPUhJfWgYvFfzd2Pdw1TzeL1WXkrqdlrgDEU69w+dr7WC8vTeQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALCDIMTaDRhpyOYncE3sPeVI98wMn/zPxMKNd3YGrdiuLDtmXqFTd4/dtas60+iK2Gi2Dmu1vwH6szfvB4G7JemCgkF6nYMCe0PhLe9vBekweHAkf8n61cNX2DaGU2McQV3ZIBQgP2pOUa3XJN4oaMKPjF7+hLQ78i4Q+OIdokPL</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
